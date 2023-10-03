@@ -1,1 +1,27 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: black;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#excuse {
+  color: white;
+  font-size: 26;
+  font-size: 36px; /* Tamaño de fuente más grande */
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+#excuse:hover {
+  font-size: 48px;
+}
